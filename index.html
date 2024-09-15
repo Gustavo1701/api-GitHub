@@ -42,11 +42,13 @@
     </header>
     <main>
 
-        <div id="container">
+        <div id="container" class="container">
 
             <div id="containerModal" class="hidden">
 
                 <div class="container-fluid mt-5">
+                    <h3 class="text-danger">Para iniciar essa aplicação, é necessário ter um token válido da api do GitHub.</h3>
+                    <h4 class="text-danger">Caso já tenha, é só iniciar.</h4>
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Iniciar
@@ -89,7 +91,7 @@
                                 type="button">Adicionar usuários</button>
                         </form>
                     </div>
-                    <h1>Ranking de repositórios</h1>
+                    <p class="text-warning bg-dark">Ranking de repositórios</p>
                     <table class="table table-striped" id="tabela-usuarios">
                         <thead>
                             <tr>
@@ -97,7 +99,7 @@
                                 <th scope="col">Avatar</th>
                                 <th scope="col">Nome</th>
                                 <th scope="col">User</th>
-                                <th scope="col">Qtd. Rep.</th>
+                                <th scope="col">Repositórios</th>
                                 <th scope="col">URL GitHub</th>
                                 <th scope="col">Ações</th>
                             </tr>
